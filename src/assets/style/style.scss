@@ -1,0 +1,30 @@
+// 초기화
+@import "./reset.css"; //.css .scss 확장자 생략 가능
+// 폰트
+@import "../fonts/fonts.css";
+// 변수선언
+@import "./valiable.scss"; // 변수선언이 필요할 경우 import로 페이지 추가해서 작성
+
+// 스크롤바
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #eeece5;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #153;
+  border-radius: 10px;
+}
+html {
+  background-color: $bg;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: $pretendard;
+  line-height: 1.5;
+}
