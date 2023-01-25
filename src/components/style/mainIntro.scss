@@ -1,0 +1,15 @@
+@import "../../assets/style/valiable";
+
+.intro {
+  font-family: $DM;
+  padding-left: 30px;
+  h1 {
+    padding-top: 50px;
+    font-size: 230px;
+    padding-bottom: 20px;
+  }
+  h3 {
+    font-size: 80px;
+    line-height: 1.3;
+  }
+}
