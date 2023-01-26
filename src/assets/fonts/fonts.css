@@ -8,3 +8,11 @@
   font-display: swap;
   src: url("../fonts/PretendardVariable.woff2") format("woff2-variations");
 }
+
+@font-face {
+  font-family: "Ivy Mode";
+  src: local("Ivy Mode Light"), local("Ivy-Mode-Light"),
+    url("IvyMode-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}

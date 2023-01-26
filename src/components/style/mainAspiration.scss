@@ -1,0 +1,16 @@
+@import "../../assets/style/valiable";
+
+.aspiration {
+  padding-left: $paddingLeft;
+  h2 {
+    padding-top: 150px;
+    padding-bottom: 90px;
+    font-size: $fontSize;
+    font-family: $IVY;
+  }
+  p {
+    width: 80%;
+    font-size: 30px;
+  }
+  padding-bottom: 150px;
+}

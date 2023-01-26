@@ -5,16 +5,19 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 999;
   height: 60px;
   transition: 0.4s;
   h1 {
-    font-size: 35px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
     margin-left: 30px;
+    font-family: $IVY;
   }
   .navigation {
+    font-family: "Poppins", sans-serif;
     display: flex;
     .globalNav {
       display: flex;
@@ -25,7 +28,7 @@ header {
         a {
           text-decoration: none;
           font-size: 1.15rem;
-          padding: 0 10px;
+          padding: 0 8px;
           height: 60px;
           line-height: 60px;
           transition: 0.3s;

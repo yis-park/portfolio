@@ -7,7 +7,7 @@ function Header() {
   return (
     <header ref={headerRef}>
       <h1>
-        <Link to="/">YIS PARK</Link>
+        <Link to="/main">YIS PARK</Link>
       </h1>
       <nav className="navigation">
         <ul className="globalNav">

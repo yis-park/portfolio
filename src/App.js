@@ -11,18 +11,28 @@ import Footer from "./components/main/Footer";
 import GoUp from "./components/main/GoUp";
 // style
 import "./assets/style/style.scss";
+import MainIntro from "./components/main/MainIntro";
+import MainAspiration from "./components/main/MainAspiration";
+import MainProject from "./components/main/MainProject";
+import MainSkill from "./components/main/MainSkill";
+import MainContact from "./components/main/MainContact";
 
 function App() {
   return (
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/main" element={<Main />} />
+        <Route path="/mainIntro" element={<MainIntro />} />
+        <Route path="/aspiration" element={<MainAspiration />} />
+        <Route path="/mainProject" element={<MainProject />} />
+        <Route path="/skill" element={<MainSkill />} />
+        <Route path="/contact" element={<MainContact />} />
 
         <Route path="*" element={<NotFoundPage />} />
         <Route path="/join" element={<Join />} />
-
-        <Route path="*" element={<NotFoundPage />} />
+        {/* 
+        <Route path="*" element={<NotFoundPage />} /> */}
       </Routes>
       <Footer />
       <GoUp />

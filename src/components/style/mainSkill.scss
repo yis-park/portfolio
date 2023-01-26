@@ -1,0 +1,32 @@
+@import "../../assets/style/valiable";
+
+.skill {
+  padding-left: $paddingLeft;
+  padding-bottom: 150px;
+  font-family: $IVY;
+  h2 {
+    padding-top: 150px;
+    padding-bottom: 90px;
+    font-size: $fontSize;
+  }
+  h3 {
+    font-size: 60px;
+    color: $color;
+    font-weight: 600;
+    padding-left: 100px;
+    padding-bottom: 70px;
+  }
+  h4 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-left: 300px;
+    padding-bottom: 70px;
+  }
+  .explanation ul {
+    list-style: disc;
+    font-family: $pretendard;
+    padding-left: 550px;
+    font-size: 40px;
+    padding-bottom: 70px;
+  }
+}
