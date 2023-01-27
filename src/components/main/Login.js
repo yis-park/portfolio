@@ -1,7 +1,11 @@
 import React from "react";
 
 function Login(props) {
-  return <div>login</div>;
+  return (
+    <>
+      <NotFoundPage />
+    </>
+  );
 }
 
 export default Login;

@@ -1,0 +1,19 @@
+@import "../../assets/style/valiable";
+
+.goUpBtn {
+  color: $color;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  left: 100px;
+  bottom: 40px;
+  transition: 0.4s;
+  &:hover {
+    bottom: 43px;
+  }
+  &.on {
+    display: block;
+  }
+}

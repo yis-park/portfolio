@@ -1,7 +1,34 @@
-import React from "react";
+import { useEffect, useState } from "react";
 
-function Goup(props) {
-  return <div>goup</div>;
+import "../style/goUp.scss";
+
+function GoUp() {
+  const [upBtn, setUpBtn] = useState(false);
+
+  const handleGoUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    console.log(window.scrollY);
+    const handleScroll = () => {
+      window.scrollY > 150 ? setUpBtn(true) : setUpBtn(false);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.addEventListener("scroll", handleScroll);
+    };
+  }, []);
+  return (
+    <div className={upBtn ? "goUpBtn on" : "goUpBtn"} onClick={handleGoUp}>
+      <p>▲ Back Top</p>
+    </div>
+  );
 }
 
-export default Goup;
+export default GoUp;

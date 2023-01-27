@@ -1,7 +1,7 @@
-import React from "react";
+import "../style/footer.scss";
 
-function Footer(props) {
-  return <div>footer</div>;
+function Footer() {
+  return <footer>ⓒ 2023 F/E Developer YiSeul. all rights reserved</footer>;
 }
 
 export default Footer;

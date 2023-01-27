@@ -4,15 +4,16 @@ import { Link } from "react-router-dom";
 import "../style/header.scss";
 function Header() {
   const headerRef = useRef(null);
+
   return (
     <header ref={headerRef}>
       <h1>
-        <Link to="/main">YIS PARK</Link>
+        <Link to="/">YIS PARK</Link>
       </h1>
       <nav className="navigation">
         <ul className="globalNav">
           <li>
-            <Link to="/main">main</Link>
+            <Link to="/">main</Link>
           </li>
           <li>
             <Link to="/aspiration">aspiration</Link>

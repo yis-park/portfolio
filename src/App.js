@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 
 import Header from "./components/main/Header";
 import Main from "./components/main/Main";
-import LogIn from "./components/main/Login";
 import Join from "./components/main/Join";
 import NotFoundPage from "./components/main/NotFoundPage";
 import Footer from "./components/main/Footer";
@@ -22,7 +21,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/main" element={<Main />} />
+        <Route path="/" element={<Main />} />
         <Route path="/mainIntro" element={<MainIntro />} />
         <Route path="/aspiration" element={<MainAspiration />} />
         <Route path="/mainProject" element={<MainProject />} />
@@ -31,11 +30,10 @@ function App() {
 
         <Route path="*" element={<NotFoundPage />} />
         <Route path="/join" element={<Join />} />
-        {/* 
-        <Route path="*" element={<NotFoundPage />} /> */}
       </Routes>
-      <Footer />
+
       <GoUp />
+      <Footer />
     </>
   );
 }
