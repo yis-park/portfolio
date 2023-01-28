@@ -4,37 +4,45 @@
   padding-left: $paddingLeft;
   padding-bottom: 150px;
   font-family: $IVY;
+  .progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: tomato;
+    transform-origin: 0%;
+  }
   h2 {
     padding-top: 150px;
     padding-bottom: 90px;
     font-size: $fontSize;
   }
   h3 {
+    width: 255px;
+    text-align: right;
     font-size: 70px;
     color: $color;
     font-weight: 600;
-    padding-left: 100px;
-    padding-top: 70px;
     position: sticky;
     top: 0px;
   }
   h4 {
-    width: 400px;
+    width: 200px;
     text-align: right;
     font-size: 30px;
     font-weight: 600;
-
-    padding-left: 200px;
-    padding-bottom: 70px;
   }
   .explanation .flex {
     display: flex;
+    align-items: stretch;
+    justify-content: center;
   }
   .explanation ul {
-    width: 750px;
+    width: 530px;
     font-size: 20px;
     list-style: disc;
     font-family: $pretendard;
-    padding: 30px 30px 70px 100px;
+    padding: 30px 30px 70px 70px;
   }
 }

@@ -28,8 +28,8 @@ function App() {
         <Route path="/skill" element={<MainSkill />} />
         <Route path="/contact" element={<MainContact />} />
 
-        <Route path="*" element={<NotFoundPage />} />
-        <Route path="/join" element={<Join />} />
+        {/* <Route path="*" element={<NotFoundPage />} />
+        <Route path="/join" element={<Join />} /> */}
       </Routes>
 
       <GoUp />

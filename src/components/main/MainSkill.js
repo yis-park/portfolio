@@ -1,8 +1,16 @@
 import "../style/mainSkill.scss";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 function MainSkill() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
   return (
     <article className="skill">
+      <motion.div className="progress-bar" style={{ scaleX }} />
       <h2>Skill</h2>
       <div className="explanation">
         <h3>WEB;</h3>

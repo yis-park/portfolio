@@ -25,14 +25,14 @@ function Header() {
             <Link to="/contact">contact</Link>
           </li>
         </ul>
-        <ul className="registry">
+        {/* <ul className="registry">
           <li>
             <Link to="/notFoundPage">login</Link>
           </li>
           <li>
             <Link to="/join">join</Link>
           </li>
-        </ul>
+        </ul> */}
       </nav>
     </header>
   );
