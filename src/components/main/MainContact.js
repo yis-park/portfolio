@@ -3,7 +3,7 @@ import "../style/mainContact.scss";
 
 function MainContact(props) {
   return (
-    <article className="contact">
+    <article className="contact main">
       <p>읽어주셔서 감사합니다 :)</p>
       <h2>I Will Wait For You;</h2>
 

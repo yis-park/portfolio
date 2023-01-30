@@ -3,7 +3,7 @@ import imglogo from "../../assets/images/scroll-down.jpg";
 
 function MainIntro(props) {
   return (
-    <main className="intro">
+    <main className="intro main">
       <h1>Slow and steady</h1>
       <h3>Front-end Developer</h3>
       <h3>YiSeul-Park</h3>

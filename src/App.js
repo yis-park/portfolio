@@ -19,7 +19,7 @@ import MainContact from "./components/main/MainContact";
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/mainIntro" element={<MainIntro />} />

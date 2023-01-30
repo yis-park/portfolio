@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function MainProject() {
   return (
-    <article className="project">
+    <article className="project main">
       <h2>
         <span>2022~2023</span>
         <br />

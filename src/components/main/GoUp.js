@@ -24,6 +24,7 @@ function GoUp() {
       window.addEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <div className={upBtn ? "goUpBtn on" : "goUpBtn"} onClick={handleGoUp}>
       <p>▲ Back Top</p>

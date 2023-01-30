@@ -4,7 +4,7 @@ import "../style/mainAspiration.scss";
 
 function MainAspiration() {
   return (
-    <article className="aspiration">
+    <article className="aspiration main">
       <h2>Aspiration</h2>
       <p>#느리지만 꾸준히 #책임감 #열정 #적응력 #계획 및 실천</p>
       <br />
