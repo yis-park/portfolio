@@ -1,13 +1,14 @@
 import { Route, Routes } from "react-router-dom";
+import { useInView } from "framer-motion";
+import { useRef } from "react";
 // import logo from "./logo.svg";
 // import "./App.css";
 
-import Header from "./components/main/Header";
 import Main from "./components/main/Main";
-import Join from "./components/main/Join";
-import NotFoundPage from "./components/main/NotFoundPage";
 import Footer from "./components/main/Footer";
 import GoUp from "./components/main/GoUp";
+import Join from "./components/main/Join";
+import NotFoundPage from "./components/main/NotFoundPage";
 // style
 import "./assets/style/style.scss";
 import MainIntro from "./components/main/MainIntro";
@@ -19,7 +20,6 @@ import MainContact from "./components/main/MainContact";
 function App() {
   return (
     <>
-      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/mainIntro" element={<MainIntro />} />
@@ -28,8 +28,8 @@ function App() {
         <Route path="/skill" element={<MainSkill />} />
         <Route path="/contact" element={<MainContact />} />
 
-        {/* <Route path="*" element={<NotFoundPage />} />
-        <Route path="/join" element={<Join />} /> */}
+        {/* <Route path="*" element={<NotFoundPage />} /> */}
+        {/* <Route path="/join" element={<Join />} /> */}
       </Routes>
 
       <GoUp />
@@ -39,21 +39,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <header className="App-header">
-        <h1>app.js</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */
-}

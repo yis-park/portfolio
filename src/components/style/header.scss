@@ -1,5 +1,50 @@
 @import "../../assets/style/valuable";
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 60px;
+  transition: 0.4s;
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 30px;
+    font-family: $IVY;
+  }
+  .navigation {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    .globalNav {
+      position: fixed;
+      top: 0;
+      display: flex;
+      right: 40px;
+      text-align: center;
+      cursor: pointer;
+      li {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        margin: 16px 0;
+        transition: 0.3s;
+        color: #000;
+        &.on {
+          background-color: $color;
+          border-radius: 30px;
+          color: #fff;
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
 // header {
 //   display: flex;
 //   justify-content: space-between;
@@ -73,49 +118,3 @@
 //     }
 //   }
 // }
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  height: 60px;
-  transition: 0.4s;
-  h1 {
-    font-size: 30px;
-    font-weight: 600;
-    margin-left: 30px;
-    font-family: $IVY;
-  }
-  .navigation {
-    font-family: "Poppins", sans-serif;
-    display: flex;
-    .globalNav {
-      position: fixed;
-      top: 0;
-      display: flex;
-      right: 40px;
-      text-align: center;
-      cursor: pointer;
-      li {
-        width: 100px;
-        height: 30px;
-        line-height: 30px;
-        margin: 16px 0;
-        transition: 0.3s;
-        color: #000;
-        &.on {
-          background-color: $color;
-          border-radius: 30px;
-          color: #fff;
-        }
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-    }
-  }
-}

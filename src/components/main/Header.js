@@ -1,25 +1,23 @@
-import { useEffect, useRef, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 import "../style/header.scss";
 function Header({ setIdx }) {
   const headerRef = useRef(null);
-  const main = document.querySelector(".main");
-  const aspiration = document.querySelector(".aspiration");
-  const project = document.querySelector(".project");
-  const skill = document.querySelector(".skill");
-  const contact = document.querySelector(".contact");
+  const main = document.querySelectorAll(".globalNav li");
+  const boxes = document.querySelectorAll("article");
 
-  const scrollTo =
-    ("click",
-    (e) => {
+  main.forEach((main, idx) => {
+    main.addEventListener("click", (e) => {
       e.preventDefault();
-      scrollTo({
-        top: window.offsetTop,
+
+      const getBox = boxes[idx].offsetTop;
+      window.scrollTo({
+        top: getBox,
         behavior: "smooth",
       });
     });
-
+  });
   return (
     <header ref={headerRef}>
       <h1>
@@ -31,7 +29,6 @@ function Header({ setIdx }) {
             // className="on"
             onClick={() => {
               setIdx(0);
-              scrollTo();
             }}
           >
             main
@@ -39,7 +36,6 @@ function Header({ setIdx }) {
           <li
             onClick={() => {
               setIdx(1);
-              scrollTo();
             }}
           >
             aspiration
@@ -69,6 +65,14 @@ function Header({ setIdx }) {
             contact
           </li>
         </ul>
+        {/* <ul className="registry">
+          <li>
+            <Link to="/notFoundPage">login</Link>
+          </li>
+          <li>
+            <Link to="/join">join</Link>
+          </li>
+        </ul> */}
       </nav>
     </header>
   );
