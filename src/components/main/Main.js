@@ -1,4 +1,7 @@
 import { useEffect, useRef, useState } from "react";
+import { Fade } from "react-reveal";
+import { Zoom } from "react-reveal";
+
 import Header from "./Header";
 import MainAspiration from "./MainAspiration";
 import MainContact from "./MainContact";

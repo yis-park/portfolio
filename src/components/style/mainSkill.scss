@@ -1,8 +1,9 @@
 @import "../../assets/style/valuable";
 .skill {
   padding-left: $paddingLeft;
-  padding-bottom: 250px;
+  padding-bottom: 150px;
   font-family: $IVY;
+  overflow: hidden;
   .progress-bar {
     position: fixed;
     top: 0;
