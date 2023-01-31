@@ -13,8 +13,8 @@ function MainIntro(props) {
       data-aos-anchor-placement="top-center"
     >
       <h1>Slow and steady</h1>
-      {/* <h3>Front-end Developer</h3> */}
-      <h3>Software Engineer</h3>
+      <h3>Front-end Developer</h3>
+      {/* <h3>Software Engineer</h3> */}
       <h3>YiSeul-Park</h3>
       <h3>Port Folio</h3>
 

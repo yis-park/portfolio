@@ -4,7 +4,7 @@
   padding-bottom: 150px;
   font-family: $IVY;
   text-align: center;
-  p {
+  h3 {
     padding-top: 50px;
     font-size: 30px;
     font-family: $pretendard;
@@ -12,39 +12,39 @@
   h2 {
     color: $color;
     font-weight: 600;
-    padding-bottom: 150px;
+    padding-bottom: 170px;
     font-size: 70px;
     padding-top: 30px;
   }
   .border {
     font-family: $pretendard;
     border: $borderBasic;
-    width: 700px;
-    height: 300px;
+    height: 200px;
+    width: 650px;
+    margin-top: 70px;
     margin-left: auto;
-    margin-right: 150px;
-    padding-right: 50px;
+    margin-right: 10%;
+    padding-right: 5%;
     line-height: 2;
-    font-size: 22px;
+    font-size: 17px;
     text-align: right;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    h4 {
+    .name {
       font-family: $IVY;
       font-size: 50px;
       font-weight: 600;
       letter-spacing: 4px;
     }
+
     .flex {
       display: flex;
       justify-content: flex-end;
-      button {
-        font-size: 22px;
+      p {
+        font-size: 20px;
         padding-left: 25px;
-        padding-bottom: 10px;
         border: none;
         font-family: $pretendard;
         background-color: inherit;

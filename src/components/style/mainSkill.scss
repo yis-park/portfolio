@@ -23,6 +23,8 @@
     font-size: 60px;
     color: $color;
     font-weight: 600;
+    position: sticky;
+    top: 0;
   }
   .explanation .flex {
     display: flex;

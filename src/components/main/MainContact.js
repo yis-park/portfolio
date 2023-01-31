@@ -8,43 +8,43 @@ function MainContact(props) {
 
   return (
     <article className="contact main">
-      <p>읽어주셔서 감사합니다 :)</p>
-      <h2>I Will Wait For You;</h2>
+      <h3>읽어주셔서 감사합니다 :)</h3>
+      <h2>I am Waiting For You;</h2>
 
       <div className="border" data-aos="flip-right">
-        <h4>
+        <h4 className="name">
           <Flip left cascade>
             Park YiSeul
           </Flip>
         </h4>
         <div className="flex">
-          <button
-            onClick={() => {
-              window.open(email);
-            }}
-          >
-            <Flip left cascade>
-              E mail
-            </Flip>
-          </button>
-          <button
-            onClick={() => {
-              window.open(blog);
-            }}
-          >
-            <Flip left cascade>
-              Blog
-            </Flip>
-          </button>
-          <button
+          <p
             onClick={() => {
               window.open(github);
             }}
           >
             <Flip left cascade>
-              Github
+              깃허브
             </Flip>
-          </button>
+          </p>
+          <p
+            onClick={() => {
+              window.open(blog);
+            }}
+          >
+            <Flip left cascade>
+              기술블로그
+            </Flip>
+          </p>
+          <p
+            onClick={() => {
+              window.open(email);
+            }}
+          >
+            <Flip left cascade>
+              이메일
+            </Flip>
+          </p>
         </div>
         <span>2022~2023 프론트엔드 개발 및 실무프로젝트 구현과정 수료 </span>
       </div>
