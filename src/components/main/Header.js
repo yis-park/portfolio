@@ -4,9 +4,16 @@ import { Link } from "react-router-dom";
 import "../style/header.scss";
 function Header({ setIdx }) {
   const headerRef = useRef(null);
-  const main = document.querySelectorAll(".globalNav li");
+  const main = document.querySelectorAll(".global-nav li");
   const boxes = document.querySelectorAll("article");
 
+  const handleGoUp = () => {
+    window.location.reload(
+      window.scrollTo({
+        top: 0,
+      })
+    );
+  };
   main.forEach((main, idx) => {
     main.addEventListener("click", (e) => {
       e.preventDefault();
@@ -21,10 +28,12 @@ function Header({ setIdx }) {
   return (
     <header ref={headerRef}>
       <h1>
-        <Link to="/">YIS PARK</Link>
+        <Link to="/" onClick={handleGoUp}>
+          YIS PARK
+        </Link>
       </h1>
       <nav className="navigation">
-        <ul className="globalNav">
+        <ul className="global-nav">
           <li
             // className="on"
             onClick={() => {

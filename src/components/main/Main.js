@@ -1,6 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { Fade } from "react-reveal";
-import { Zoom } from "react-reveal";
 
 import Header from "./Header";
 import MainAspiration from "./MainAspiration";
@@ -27,7 +25,7 @@ function Main() {
   const motion = () => {
     const base = -window.innerHeight / 5;
     const scrollY = window.scrollY;
-    const btns = mainRef.current.querySelectorAll(".globalNav li");
+    const btns = mainRef.current.querySelectorAll(".global-nav li");
 
     setSrcrolled(scrollY);
 

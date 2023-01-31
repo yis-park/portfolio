@@ -1,36 +1,27 @@
 @import "../../assets/style/valuable";
+
 .skill {
   padding-left: $paddingLeft;
   padding-bottom: 150px;
   font-family: $IVY;
   overflow: hidden;
-  .progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    background: tomato;
-    transform-origin: 0%;
-  }
   h2 {
     padding-top: 50px;
     padding-bottom: 90px;
     font-size: $fontSize;
   }
+  h4 {
+    width: 200px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
   h3 {
     width: 255px;
     text-align: right;
     font-size: 60px;
     color: $color;
-    font-weight: 600;
-    position: sticky;
-    top: 0px;
-  }
-  h4 {
-    width: 200px;
-    text-align: right;
-    font-size: 30px;
     font-weight: 600;
   }
   .explanation .flex {
@@ -40,7 +31,7 @@
   }
   .explanation ul {
     width: 530px;
-    font-size: 20px;
+    font-size: 18px;
     list-style: disc;
     font-family: $pretendard;
     padding: 30px 30px 70px 70px;
