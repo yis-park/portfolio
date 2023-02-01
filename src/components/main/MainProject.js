@@ -22,8 +22,19 @@ function MainProject() {
         data-aos-anchor-placement="top-bottom"
       >
         <Link to="/">
-          <h3>+ HTML, CSS를 이용한 웹사이트 만들기 </h3>
-          <h4>webReact</h4>
+          <h3>+ PORTFOLIO 제작일지 </h3>
+          <h4> # figma</h4>
+        </Link>
+      </div>
+      <div
+        className="projectReact"
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <Link to="/">
+          <h3>+ React를 이용한 웹사이트 만들기 </h3>
+          <h4> # Web # React #Swiper #JavaScript # HTML5 # CSS3 </h4>
         </Link>
       </div>
       <div
@@ -34,7 +45,7 @@ function MainProject() {
       >
         <Link to="/">
           <h3>+ JAVASCRIPT를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
-          <h4>Dr.MODOO</h4>
+          <h4># Dr.MODOO # Web #JavaScript #Selection # HTML5 # CSS3</h4>
         </Link>
       </div>
       <div

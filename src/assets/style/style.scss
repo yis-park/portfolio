@@ -24,12 +24,12 @@
 html {
   background-color: $bg;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 body {
   font-family: $pretendard;
   line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

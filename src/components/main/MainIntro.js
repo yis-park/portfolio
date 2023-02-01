@@ -7,9 +7,9 @@ function MainIntro(props) {
   return (
     <article
       className="intro main"
-      data-aos="fade-right"
-      // data-aos-offset="10"
-      data-aos-easing="ease-in-out"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
       data-aos-anchor-placement="top-center"
     >
       <h1>Slow and steady</h1>
