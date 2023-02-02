@@ -1,7 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 
 function ProjectContainer(props) {
-  const { p1 } = useParams();
   const navigate = useNavigate();
 
   const goTo = () => {
@@ -9,13 +8,12 @@ function ProjectContainer(props) {
   };
   return (
     <div
-      className="
-      "
+      className=""
       data-aos="fade-up"
       data-aos-easing="ease-in-out"
       data-aos-anchor-placement="top-center"
     >
-      <h3>{p1}포트폴리오 제작일지</h3>
+      <h3>이슬이는 호두 없으면 안대 ^_^</h3>
 
       {/* <div className="">
         이 포트폴리오는 다른 포트폴리오 템플릿을 사용하지 않고 html 틀부터

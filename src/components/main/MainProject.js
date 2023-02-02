@@ -21,7 +21,7 @@ function MainProject() {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link to="/mainProject/p1" className="button" cursor-class="overlay">
+        <Link to="/m1" className="button" cursor-class="overlay">
           <div className="button-text">
             <h3>+ PORTFOLIO 제작일지 </h3>
             <h4> # figma</h4>
@@ -37,7 +37,7 @@ function MainProject() {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link to="/mainProject/p2" className="button" cursor-class="overlay">
+        <Link to="/m2" className="button" cursor-class="overlay">
           <div className="button-text">
             <h3>+ React를 이용한 웹사이트 만들기 </h3>
             <h4> # Web # React #Swiper #JavaScript # HTML5 # CSS3 </h4>
@@ -53,15 +53,15 @@ function MainProject() {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link to="/mainProject:p2" className="button" cursor-class="overlay">
+        <Link to="/m3" className="button" cursor-class="overlay">
           <div className="button-text">
             <h3>+ JAVASCRIPT를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
             <h4># Dr.MODOO # Web #JavaScript #Selection # HTML5 # CSS3</h4>
           </div>
-          <h3 className="button-text foreground-text">
+          <div className="button-text foreground-text">
             <h3>+ JAVASCRIPT를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
             <h4># Dr.MODOO # Web #JavaScript #Selection # HTML5 # CSS3</h4>
-          </h3>
+          </div>
         </Link>
       </div>
       <div

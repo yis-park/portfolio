@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import { Routes } from "react-router-dom";
 
 import Header from "./Header";
 import MainAspiration from "./MainAspiration";

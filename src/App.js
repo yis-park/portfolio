@@ -7,28 +7,22 @@ import Join from "./components/main/Join";
 import NotFoundPage from "./components/main/NotFoundPage";
 // style
 import "./assets/style/style.scss";
-import MainIntro from "./components/main/MainIntro";
-import MainAspiration from "./components/main/MainAspiration";
-import MainProject from "./components/main/MainProject";
+
 import MainSkill from "./components/main/MainSkill";
 import MainContact from "./components/main/MainContact";
 import ProjectContainer from "./components/project/ProjectContainer";
 import ProjectReact from "./components/project/ProjectReact";
+import ProjectTeam from "./components/project/ProjectTeam";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/mainIntro" element={<MainIntro />} />
-        <Route path="/aspiration" element={<MainAspiration />} />
 
-        <Route path="/mainProject">
-          <Route index element={<MainProject />} />
-          <Route path=":p1" element={<ProjectContainer />} />
-          <Route path=":p2" element={<ProjectReact />} />
-        </Route>
-
+        <Route path="/m1" element={<ProjectContainer />} />
+        <Route path="/m2" element={<ProjectReact />} />
+        <Route path="/m3" element={<ProjectTeam />} />
         <Route path="/skill" element={<MainSkill />} />
         <Route path="/contact" element={<MainContact />} />
 

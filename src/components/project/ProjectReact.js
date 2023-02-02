@@ -2,7 +2,6 @@ import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
 function ProjectReact(props) {
-  const { p2 } = useParams();
   const navigate = useNavigate();
 
   const goTo = () => {
@@ -10,7 +9,7 @@ function ProjectReact(props) {
   };
   return (
     <div>
-      <h2>{p2}React 웹페이지</h2>
+      <h3>연결안된거같아,,,</h3>
       <button onClick={goTo}>이전</button>
     </div>
   );
