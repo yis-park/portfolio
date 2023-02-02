@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Routes } from "react-router-dom";
 
 import Header from "./Header";
 import MainAspiration from "./MainAspiration";
@@ -6,6 +7,7 @@ import MainContact from "./MainContact";
 import MainIntro from "./MainIntro";
 import MainProject from "./MainProject";
 import MainSkill from "./MainSkill";
+import Mouse from "./Mouse";
 
 function Main() {
   const mainRef = useRef(null);
@@ -59,6 +61,7 @@ function Main() {
       <MainProject />
       <MainSkill />
       <MainContact />
+      <Mouse />
     </main>
   );
 }

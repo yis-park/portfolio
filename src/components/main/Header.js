@@ -25,10 +25,11 @@ function Header({ setIdx }) {
       });
     });
   });
+
   return (
     <header ref={headerRef}>
       <h1>
-        <Link to="/" onClick={handleGoUp}>
+        <Link to="/" onClick={handleGoUp} className="button-text">
           YIS PARK
         </Link>
       </h1>
@@ -88,25 +89,3 @@ function Header({ setIdx }) {
 }
 
 export default Header;
-{
-  /* <li>
-<Link to="/aspiration">aspiration</Link>
-</li>
-<li>
-<Link to="/skill">skill</Link>
-</li>
-<li>
-<Link to="/contact">contact</Link>
-</li> */
-}
-
-{
-  /* <ul className="registry">
-          <li>
-            <Link to="/notFoundPage">login</Link>
-          </li>
-          <li>
-            <Link to="/join">join</Link>
-          </li>
-        </ul> */
-}

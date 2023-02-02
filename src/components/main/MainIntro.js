@@ -2,7 +2,7 @@ import "../style/mainIntro.scss";
 import imglogo from "../../assets/images/scroll-down.jpg";
 import "aos/dist/aos.css";
 
-function MainIntro(props) {
+function MainIntro() {
   return (
     <article
       className="intro main"

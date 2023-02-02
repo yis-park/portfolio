@@ -17,34 +17,46 @@ function MainContact(props) {
             Park YiSeul
           </Flip>
         </h4>
-        <div className="flex">
-          <p
-            onClick={() => {
-              window.open(github);
-            }}
-          >
-            <Flip left cascade>
-              깃허브
-            </Flip>
-          </p>
-          <p
-            onClick={() => {
-              window.open(blog);
-            }}
-          >
-            <Flip left cascade>
-              기술블로그
-            </Flip>
-          </p>
-          <p
-            onClick={() => {
-              window.open(email);
-            }}
-          >
-            <Flip left cascade>
-              이메일
-            </Flip>
-          </p>
+        <div className="flex ">
+          <div className="button" cursor-class="overlay">
+            <p
+              onClick={() => {
+                window.open(github);
+              }}
+              className="button-text"
+            >
+              <Flip left cascade>
+                깃허브
+              </Flip>
+            </p>
+            <p className="button-text foreground-text">깃허브</p>
+          </div>
+          <div className="button" cursor-class="overlay">
+            <p
+              onClick={() => {
+                window.open(blog);
+              }}
+              className="button-text"
+            >
+              <Flip left cascade>
+                기술블로그
+              </Flip>
+            </p>
+            <p className="button-text foreground-text">기술블로그</p>
+          </div>
+          <div className="button" cursor-class="overlay">
+            <p
+              onClick={() => {
+                window.open(email);
+              }}
+              className="button-text"
+            >
+              <Flip left cascade>
+                이메일
+              </Flip>
+            </p>
+            <p className="button-text foreground-text">이메일</p>
+          </div>
         </div>
         <span>2022~2023 프론트엔드 개발 및 실무프로젝트 구현과정 수료 </span>
       </div>
