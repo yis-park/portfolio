@@ -1,6 +1,5 @@
 import "../style/mainIntro.scss";
 import imglogo from "../../assets/images/scroll-down.jpg";
-import { Fade } from "react-reveal";
 import "aos/dist/aos.css";
 
 function MainIntro(props) {
