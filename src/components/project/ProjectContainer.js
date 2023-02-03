@@ -7,8 +7,8 @@ function ProjectContainer(props) {
     navigate("/");
   };
   return (
-    <div
-      className=""
+    <article
+      className="sub-project"
       data-aos="fade-up"
       data-aos-easing="ease-in-out"
       data-aos-anchor-placement="top-center"
@@ -29,9 +29,12 @@ function ProjectContainer(props) {
         작용하지 않음 (스킬부분. overflow:hidden 있어서 안됐었음.!!) figma로
         프로토타입을 자세히 작성한다고 했는데도 막상 코딩을 해보니 어울리지 않는
         부분 발생(폰트,사이즈,행간 등)
+        
+        마우스 커서에서 시간을 많이 할애함. transfrom(-50%,-50%) 을 주면 translate가 먹지 않음,, translate 먹으면 hover값이 먹지 않음
+        해결법 아직 못찾음
       </div> */}
       <button onClick={goTo}>이전</button>
-    </div>
+    </article>
   );
 }
 

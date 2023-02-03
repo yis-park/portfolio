@@ -19,7 +19,7 @@
   .border {
     font-family: $pretendard;
     border: $borderBasic;
-    height: 200px;
+    height: 230px;
     width: 600px;
     margin-top: 70px;
     margin-left: auto;
@@ -43,13 +43,11 @@
     .flex {
       display: flex;
       justify-content: flex-end;
-      .button {
-        width: 18%;
-      }
+
       p {
         font-size: 21px;
         text-align: right;
-        padding-bottom: 10px;
+        padding-right: 10px;
         border: none;
         font-family: $pretendard;
         background-color: inherit;

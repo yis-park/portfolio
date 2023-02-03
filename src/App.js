@@ -8,8 +8,6 @@ import NotFoundPage from "./components/main/NotFoundPage";
 // style
 import "./assets/style/style.scss";
 
-import MainSkill from "./components/main/MainSkill";
-import MainContact from "./components/main/MainContact";
 import ProjectContainer from "./components/project/ProjectContainer";
 import ProjectReact from "./components/project/ProjectReact";
 import ProjectTeam from "./components/project/ProjectTeam";
@@ -19,17 +17,14 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Main />} />
-
-        <Route path="/m1" element={<ProjectContainer />} />
-        <Route path="/m2" element={<ProjectReact />} />
-        <Route path="/m3" element={<ProjectTeam />} />
-        <Route path="/skill" element={<MainSkill />} />
-        <Route path="/contact" element={<MainContact />} />
+        <Route path="/projectContainer" element={<ProjectContainer />} />
+        <Route path="/projectReact" element={<ProjectReact />} />
+        <Route path="/projectTeam" element={<ProjectTeam />} />
 
         {/* <Route path="*" element={<NotFoundPage />} /> */}
         {/* <Route path="/join" element={<Join />} /> */}
       </Routes>
-      <GoUp />
+      {/* <GoUp /> */}
       <Footer />
     </>
   );

@@ -1,7 +1,7 @@
 import "../style/mainProject.scss";
 import { Link } from "react-router-dom";
 
-function MainProject() {
+function MainProject({ isHovered }) {
   return (
     <article
       className="project main"
@@ -21,14 +21,13 @@ function MainProject() {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link to="/m1" className="button" cursor-class="overlay">
-          <div className="button-text">
-            <h3>+ PORTFOLIO 제작일지 </h3>
-            <h4> # figma</h4>
-          </div>
-          <h3 className="button-text foreground-text">
-            PORTFOLIO 제작일지 보러가기
-          </h3>
+        <Link
+          to="/m1"
+          onMouseEnter={() => isHovered(true)}
+          onMouseLeave={() => isHovered(false)}
+        >
+          <h3>+ PORTFOLIO 제작일지 </h3>
+          <h4> # figma</h4>
         </Link>
       </div>
       <div
@@ -37,14 +36,13 @@ function MainProject() {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link to="/m2" className="button" cursor-class="overlay">
-          <div className="button-text">
-            <h3>+ React를 이용한 웹사이트 만들기 </h3>
-            <h4> # Web # React #Swiper #JavaScript # HTML5 # CSS3 </h4>
-          </div>
-          <h3 className="button-text foreground-text">
-            React를 이용한 웹사이트 보러가기
-          </h3>
+        <Link
+          to="/m2"
+          onMouseEnter={() => isHovered(true)}
+          onMouseLeave={() => isHovered(false)}
+        >
+          <h3>+ React를 이용한 웹사이트 만들기 </h3>
+          <h4> # Web # React #Swiper #JavaScript # HTML5 # CSS3 </h4>
         </Link>
       </div>
       <div
@@ -53,15 +51,13 @@ function MainProject() {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link to="/m3" className="button" cursor-class="overlay">
-          <div className="button-text">
-            <h3>+ JAVASCRIPT를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
-            <h4># Dr.MODOO # Web #JavaScript #Selection # HTML5 # CSS3</h4>
-          </div>
-          <div className="button-text foreground-text">
-            <h3>+ JAVASCRIPT를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
-            <h4># Dr.MODOO # Web #JavaScript #Selection # HTML5 # CSS3</h4>
-          </div>
+        <Link
+          to="/m3"
+          onMouseEnter={() => isHovered(true)}
+          onMouseLeave={() => isHovered(false)}
+        >
+          <h3>+ JAVASCRIPT를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
+          <h4># Dr.MODOO # Web #JavaScript #Selection # HTML5 # CSS3</h4>
         </Link>
       </div>
       <div
@@ -70,14 +66,13 @@ function MainProject() {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link to="/" className="button" cursor-class="overlay">
-          <div className="button-text">
-            <h3>+ HTML,CSS를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
-            <h4>Netschool Live</h4>
-          </div>
-          <h3 className="button-text foreground-text">
-            HTML,CSS를 이용한 팀프로젝트 보러가기
-          </h3>
+        <Link
+          to="/"
+          onMouseEnter={() => isHovered(true)}
+          onMouseLeave={() => isHovered(false)}
+        >
+          <h3>+ HTML,CSS를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
+          <h4>Netschool Live</h4>
         </Link>
       </div>
       <div
@@ -86,14 +81,13 @@ function MainProject() {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link to="/" className="button" cursor-class="overlay">
-          <div className="button-text">
-            <h3>+ FIGMA를 이용한 웹사이트 만들기 </h3>
-            <h4>UI/UX design, prototype</h4>
-          </div>
-          <h3 className="button-text foreground-text">
-            FIGMA를 이용한 작업물 보러가기
-          </h3>
+        <Link
+          to="/"
+          onMouseEnter={() => isHovered(true)}
+          onMouseLeave={() => isHovered(false)}
+        >
+          <h3>+ FIGMA를 이용한 웹사이트 만들기 </h3>
+          <h4>UI/UX design, prototype</h4>
         </Link>
       </div>
     </article>

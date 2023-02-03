@@ -34,11 +34,8 @@
   .explanation ul {
     width: 530px;
     font-size: 18px;
-    list-style: disc;
     font-family: $pretendard;
     padding: 30px 30px 70px 70px;
-    li {
-      list-style: square;
-    }
+    list-style: none;
   }
 }

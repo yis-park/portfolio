@@ -1,17 +1,21 @@
 import React from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-function ProjectReact(props) {
+function ProjectReact() {
   const navigate = useNavigate();
 
   const goTo = () => {
     navigate("/");
   };
   return (
-    <div>
-      <h3>연결안된거같아,,,</h3>
+    <article className="sub-project">
+      <div className="project-bg">
+        <h3>DYAMI</h3>
+      </div>
+      <h3>[ React ] WebSite</h3>
+
       <button onClick={goTo}>이전</button>
-    </div>
+    </article>
   );
 }
 

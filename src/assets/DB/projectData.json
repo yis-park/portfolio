@@ -1,0 +1,26 @@
+{
+  "ReactData": [
+    {
+      "id": 1,
+      "title": "DYANI",
+      "des": "WebSite publishing",
+      "period": "2023.01.10~2023.01.13",
+      "Development": "개인작업(100%)",
+      "overView": "Overview",
+      "goal": "goal",
+      "goal1": "웹 표준, 웹 접근성을 준수한 시멘틱 마크업",
+      "goal2": "샘플 사이트와 비슷한 구조의 웹페이지 만들기",
+      "techStack": "tech stack",
+      "stack": "React, JavaScript, tyled-components, css, openApi: Kakao Map, Tool: Visual Studio Code, GitHub",
+      "publishing": "publishing",
+      "des1": "header:",
+      "des2": "네비게이션바 scroll event 적용",
+      "des3": "main",
+      "des4": "setInterval을 이용한 자동 카운트 적용 ",
+      "des5": "React를 이용한 자동 슬라이더 및 내비게이션 제작 ",
+      "des6": "Flex, Grid, Position을 이용한 레이아웃 디자인 ",
+      "des7": "카카오 맵을 이용한 openApi 호출에 따른 지도 확대/축소 등 컨트롤 ",
+      "des8": "Mouse Event 적용 "
+    }
+  ]
+}

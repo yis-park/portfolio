@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import "../style/goUp.scss";
 
-function GoUp() {
+function GoUp({ isHovered }) {
   const [upBtn, setUpBtn] = useState(false);
 
   const handleGoUp = () => {
@@ -26,7 +26,12 @@ function GoUp() {
   }, []);
 
   return (
-    <div className={upBtn ? "goUpBtn on" : "goUpBtn"} onClick={handleGoUp}>
+    <div
+      className={upBtn ? "goUpBtn on" : "goUpBtn"}
+      onClick={handleGoUp}
+      onMouseEnter={() => isHovered(true)}
+      onMouseLeave={() => isHovered(false)}
+    >
       <p>▲ Back Top</p>
     </div>
   );

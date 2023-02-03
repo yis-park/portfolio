@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 
 import "../style/header.scss";
-function Header({ setIdx }) {
+function Header({ setIdx, isHovered }) {
   const headerRef = useRef(null);
   const main = document.querySelectorAll(".global-nav li");
   const boxes = document.querySelectorAll("article");
@@ -40,6 +40,8 @@ function Header({ setIdx }) {
             onClick={() => {
               setIdx(0);
             }}
+            onMouseEnter={() => isHovered(true)}
+            onMouseLeave={() => isHovered(false)}
           >
             main
           </li>
@@ -47,6 +49,8 @@ function Header({ setIdx }) {
             onClick={() => {
               setIdx(1);
             }}
+            onMouseEnter={() => isHovered(true)}
+            onMouseLeave={() => isHovered(false)}
           >
             aspiration
           </li>
@@ -55,6 +59,8 @@ function Header({ setIdx }) {
             onClick={() => {
               setIdx(2);
             }}
+            onMouseEnter={() => isHovered(true)}
+            onMouseLeave={() => isHovered(false)}
           >
             project
           </li>
@@ -63,6 +69,8 @@ function Header({ setIdx }) {
             onClick={() => {
               setIdx(3);
             }}
+            onMouseEnter={() => isHovered(true)}
+            onMouseLeave={() => isHovered(false)}
           >
             skill
           </li>
@@ -71,6 +79,8 @@ function Header({ setIdx }) {
             onClick={() => {
               setIdx(4);
             }}
+            onMouseEnter={() => isHovered(true)}
+            onMouseLeave={() => isHovered(false)}
           >
             contact
           </li>
