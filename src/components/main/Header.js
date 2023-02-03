@@ -32,7 +32,6 @@ function Header({ setIdx, isHovered }) {
         <Link
           to="/"
           onClick={handleGoUp}
-          className="button-text"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
