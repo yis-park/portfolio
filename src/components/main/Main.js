@@ -7,7 +7,6 @@ import MainIntro from "./MainIntro";
 import MainProject from "./MainProject";
 import MainSkill from "./MainSkill";
 
-import "../style/mouse.scss";
 import GoUp from "./GoUp";
 
 function Main() {
