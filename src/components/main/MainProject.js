@@ -15,14 +15,15 @@ function MainProject({ isHovered }) {
         Selected
         <br /> works
       </h2>
+
       <div
-        className="projectReact"
+        className="projectReact  border"
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
         <Link
-          to="/m1"
+          to="/projectContainer"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
@@ -31,13 +32,13 @@ function MainProject({ isHovered }) {
         </Link>
       </div>
       <div
-        className="projectReact"
+        className="project-react border"
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
         <Link
-          to="/m2"
+          to="/projectReact"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
@@ -46,13 +47,13 @@ function MainProject({ isHovered }) {
         </Link>
       </div>
       <div
-        className="projectReact"
+        className="project-team  border"
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
         <Link
-          to="/m3"
+          to="/projectTeam"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
@@ -61,13 +62,13 @@ function MainProject({ isHovered }) {
         </Link>
       </div>
       <div
-        className="projectReact"
+        className="project-team2  border"
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
         <Link
-          to="/"
+          to="/projectTeam2"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
@@ -76,13 +77,13 @@ function MainProject({ isHovered }) {
         </Link>
       </div>
       <div
-        className="projectReact"
+        className="project-figma  border"
         data-aos="fade-up"
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
         <Link
-          to="/"
+          to="/projectGraphic"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
@@ -95,3 +96,74 @@ function MainProject({ isHovered }) {
 }
 
 export default MainProject;
+
+{
+  /* <Link
+to="/m1"
+onMouseEnter={() => isHovered(true)}
+onMouseLeave={() => isHovered(false)}
+>
+<h3>+ PORTFOLIO 제작일지 </h3>
+<h4> # figma</h4>
+</Link>
+</div>
+<div
+className="projectReact"
+data-aos="fade-up"
+data-aos-easing="ease-in-out"
+data-aos-anchor-placement="top-bottom"
+>
+<Link
+to="/m2"
+onMouseEnter={() => isHovered(true)}
+onMouseLeave={() => isHovered(false)}
+>
+<h3>+ React를 이용한 웹사이트 만들기 </h3>
+<h4> # Web # React #Swiper #JavaScript # HTML5 # CSS3 </h4>
+</Link>
+</div>
+<div
+className="projectReact"
+data-aos="fade-up"
+data-aos-easing="ease-in-out"
+data-aos-anchor-placement="top-bottom"
+>
+<Link
+to="/m3"
+onMouseEnter={() => isHovered(true)}
+onMouseLeave={() => isHovered(false)}
+>
+<h3>+ JAVASCRIPT를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
+<h4># Dr.MODOO # Web #JavaScript #Selection # HTML5 # CSS3</h4>
+</Link>
+</div>
+<div
+className="projectReact"
+data-aos="fade-up"
+data-aos-easing="ease-in-out"
+data-aos-anchor-placement="top-bottom"
+>
+<Link
+to="/"
+onMouseEnter={() => isHovered(true)}
+onMouseLeave={() => isHovered(false)}
+>
+<h3>+ HTML,CSS를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
+<h4>Netschool Live</h4>
+</Link>
+</div>
+<div
+className="projectReact"
+data-aos="fade-up"
+data-aos-easing="ease-in-out"
+data-aos-anchor-placement="top-bottom"
+>
+<Link
+to="/"
+onMouseEnter={() => isHovered(true)}
+onMouseLeave={() => isHovered(false)}
+>
+<h3>+ FIGMA를 이용한 웹사이트 만들기 </h3>
+<h4>UI/UX design, prototype</h4>
+</Link> */
+}

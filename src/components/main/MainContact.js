@@ -4,7 +4,6 @@ import Flip from "react-reveal/Flip";
 function MainContact({ isHovered }) {
   const github = "https://github.com/yis-park?tab=repositories";
   const blog = "https://blog.naver.com/ckadltmf423";
-  const email = "https://google.com";
 
   return (
     <article className="contact main">
@@ -42,7 +41,7 @@ function MainContact({ isHovered }) {
             </Flip>
           </p>
         </div>
-        <span>@gmail.com</span>
+        <span>yis.park@gmail.com</span>
         <span>2022~2023 프론트엔드 개발 및 실무프로젝트 구현과정 수료 </span>
       </div>
     </article>
