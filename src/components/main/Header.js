@@ -29,7 +29,13 @@ function Header({ setIdx, isHovered }) {
   return (
     <header ref={headerRef}>
       <h1>
-        <Link to="/" onClick={handleGoUp} className="button-text">
+        <Link
+          to="/"
+          onClick={handleGoUp}
+          className="button-text"
+          onMouseEnter={() => isHovered(true)}
+          onMouseLeave={() => isHovered(false)}
+        >
           YIS PARK
         </Link>
       </h1>
