@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.62db600a.css",
+    "main.js": "/portfolio/static/js/main.1c5980d0.js",
+    "static/media/PretendardVariable.woff2": "/portfolio/static/media/PretendardVariable.36b3a87cd98126711b2b.woff2",
+    "static/media/projectReact.jpg": "/portfolio/static/media/projectReact.f6cc3b05e06878a9d257.jpg",
+    "static/media/join.jpg": "/portfolio/static/media/join.c21171d91242f20c44bf.jpg",
+    "static/media/IvyMode-Light.woff2": "/portfolio/static/media/IvyMode-Light.c94b3141ab1841f2e33f.woff2",
+    "static/media/projectReactFolder.png": "/portfolio/static/media/projectReactFolder.3a7406248742ed679b48.png",
+    "index.html": "/portfolio/index.html",
+    "main.62db600a.css.map": "/portfolio/static/css/main.62db600a.css.map",
+    "main.1c5980d0.js.map": "/portfolio/static/js/main.1c5980d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62db600a.css",
+    "static/js/main.1c5980d0.js"
+  ]
+}
