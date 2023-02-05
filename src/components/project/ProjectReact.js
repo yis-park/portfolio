@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../style/project.scss";
 import imgfolder from "../../assets/images/projectReactFolder.png";
 
@@ -85,6 +85,8 @@ function ProjectReact({ react }) {
           </div>
         </div>
       ))}
+
+      <Link to="/">사이트 바로가기</Link>
       <button onClick={goTo}>HOME</button>
     </article>
   );
