@@ -3,7 +3,6 @@ export default [
     id: 1,
     title: "WEB;",
     name1: "Html5&Css3",
-    name2: "Css3",
     des1: "웹표준 & 웹접근성을 준수하는 마크업 사용",
     des2: "웹 사이트 구축 및 디자인 가능",
     des3: "flex & grid & positon 등을 이용한 레이아웃 구현",
@@ -13,7 +12,6 @@ export default [
   {
     id: 2,
     name1: "Jsvascripts (ES6+)",
-    name2: "(ES6+)",
     des1: "ES6+ 기본 문법에 대한 이해",
     des2: "웹 사이트 구축 및 디자인 가능",
     des3: "map, filter, forEach, reduce등 고차함수에 대한 이해",
@@ -39,7 +37,6 @@ export default [
     id: 4,
     title: "DESIGN;",
     name1: "Photoshop &Illustrator",
-    name2: "Illustrator",
     des1: "웹 사이트 구축 및 디자인",
     des2: "이미지 편집 수정 & 디자인",
     des3: "UI/UX 디자인 제작",
