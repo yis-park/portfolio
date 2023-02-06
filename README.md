@@ -13,13 +13,14 @@
 
 ## 📃 상세 내용 (페이지 구성)  
 ### 📂 폴더 구성:   
-<img src="/pfFold.png" width="450px" height="300px" alt="폴더구성"></img><br>
-<img src="/path/to/pfFold2.png" width="450px" height="300px" alt="폴더구성"></img><br>
+<img src="/pfFold1.png" width="300px" height="500px" alt="폴더구성"></img><br>
+<img src="/pfFold.png" width="300px" height="500px" alt="폴더구성"></img><br>
+<img src="/pfFold2.png" width="300px" height="500px" alt="폴더구성"></img><br>
 ### layout:
 - 라우터 돔을 이용해 전체적인 레이아웃을 만듦
 - Main 컴포넌트 안에 하위 컴포넌트 나열 되어있고, Project 컴포넌트 클릭 시 해당 컴포넌트로 링크 연결되기 때문에 App.js와 Main.js 나누어 작성
-- <img src="/path/to/pflayout.png" width="450px" height="300px" alt="Main.js"></img><br>
-- <img src="/path/to/pflayout2.png" width="450px" height="300px" alt="App.js"></img><br>   
+- <img src="/pflayout.png" width="500px" height="350px" alt="Main.js"></img><br>
+- <img src="/pflayout2.png" width="500px" height="350px" alt="App.js"></img><br>   
 - - -
 ### 🔖 페이지 구성: <br>
 -- aos 라이브러리를 통한 fade-in 효과 구현<br>
