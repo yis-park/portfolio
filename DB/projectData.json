@@ -2,21 +2,22 @@
   "ReactData": [
     {
       "id": 1,
-      "no": "no.1 ",
-      "title": "DYANI",
-      "subTitle": "[ React ] 를 이용한 WebSite",
-      "des": "WebSite publishing",
-      "period": "2023.01.10~2023.01.13",
-      "Development": "개인작업(100%)",
-      "overView": "Overview",
-      "goal": "goal;",
-      "goal1": "- 웹 표준, 웹 접근성을 준수한 시멘틱 마크업",
-      "goal2": "- 샘플 사이트와 비슷한 구조의 웹페이지 만들기",
-      "techStack": "tech stack;",
-      "stack": "- React, JavaScript, tyled-components, css",
-      "api": "- open Api: Kakao Map",
-      "tool": "- Tool: Visual Studio Code, GitHub",
-      "publishing": "publishing;",
+      "title": "Overview",
+      "menu": "goal;",
+      "des1": "- 웹 표준, 웹 접근성을 준수한 시멘틱 마크업",
+      "des2": "- 샘플 사이트와 유사하게 메인 페이지 구현하기"
+    },
+    {
+      "id": 2,
+      "menu": "tech stack;",
+      "des1": "- React, JavaScript, styled-components, css",
+      "des2": "- open Api: Kakao Map",
+      "des3": "- Tool: Visual Studio Code, GitHub"
+    },
+
+    {
+      "id": 3,
+      "menu": "layout;",
       "des1": "header:",
       "des2": "- 네비게이션바 scroll event 적용",
       "des3": "main:",
@@ -24,20 +25,78 @@
       "des5": "- React를 이용한 자동 슬라이더 및 내비게이션 제작 ",
       "des6": "- Flex, Grid, Position을 이용한 레이아웃 디자인 ",
       "des7": "- 카카오 맵을 이용한 open Api 호출에 따른 지도 확대/축소 등 컨트롤 ",
-      "des8": "- ouse Event 적용 ",
+      "des8": "- Mouse Event 적용 "
+    },
+    {
+      "id": 4,
+      "des1": "웹사이트 유형",
+      "des2": "- pc : 1920px",
+      "des3": "기여도",
+      "des4": "- 100%"
+    },
+    {
+      "id": 5,
+      "des1": "디렉토리 구조",
+      "folderimg": "projectReactFolder.png",
+      "menu": "Problem&Solution;",
+      "des2": "문제점 1. 상단 메뉴바 scroll event가 생각대로 적용이 되지 않았다. 해당 위치에 스크롤 되면 로고 색과 배경색이 바뀌어야 하는데 :hover 시에 잠깐 적용하는 것 말고 생각나는 효과가 없었다.",
+      "des3": "해결책 : scroll event 수업을 들은 후 ref함수와 scrollY를 이용해 원하는 효과를 줄 수 있었다.",
+      "des4": "문제점 2. 이미지를 클릭하면 동영상이 나오는 페이지에서 동영상을 숨기고, 클릭시 동영상이 생기며 올라오는 부분이 쉽게 되지 않았다.",
+      "des5": "해결책 : useState를 이용해 상태값을 지정해주고 버튼 클릭 시 동영상이 보여지게, 닫기버튼 클릭 시 동영상이 다시 없어지게 스크립트 함수식을 주었다. px을 이용해 고정값을 주어 전체화면이 아닐 시에는 위치값이 맞지 않지만, 스스로 찾아보고 삼항연산자와 onClick 으로 완성하였다.",
+      "des6": "문제점 3. 컴포넌트명을 작성하는 과정에서 상세 이름을 생각하지 않고 단순 첫 번째 페이지, 두 번쨰 페이지 로 정한 것이 프로답지 못한 판단이었다. ",
+      "des7": "해결책 : 해당 프로젝트 에서는 해결책을 적용하지 못하였다. 다음 프로젝트 부터는 해당 컴포넌트를 대표하는 단어를 사용해 이름을 지어 한 눈에 어떤 페이지인지 알아볼 수 있도록 할 것이다."
+    },
+    {
+      "id": 6,
+      "menu": "review;",
+      "des1": "react를 배우면서 처음 작업한 결과물이다. 모두 배운 뒤 만들었으면 컴포넌트 네이밍이나 scss,css 통일 등 조금 더 완성도 있게 작업할 수 있지 않았을까 하는 아쉬움이 남는다.   html과 css는 미리 만들어 두었기에 react로  작업하는 것이 쉬울 것 같았지만, 의도한 대로 되지 않았다. 곳곳에서 문제사항이 발생했고, 해결하는 과정이 쉽지만은 않았다.  이 경험을 토대로 당장 이 포트폴리오 구성을 더 나은 구조로 작업할 수 있었다."
+    }
+  ],
+
+  "jsData": [
+    {
+      "id": 2,
+      "no": "no.2 ",
+      "title": "Dr.MODOO",
+      "bg": "projectTeam.jpeg",
+      "subTitle": "[ JavaScript ] 를 이용한 WebSite",
+      "des": "WebSite publishing / Team Project",
+      "period": "2023.01.10~2023.01.13",
+      "Development": "팀 작업 (30%)",
+      "overView": "Overview",
+      "goal": "goal;",
+      "goal1": "- 웹 표준, 웹 접근성을 준수한 시멘틱 마크업",
+      "goal2": "- 샘플 사이트와 유사하게 모든 페이지 구현하기",
+      "techStack": "tech stack;",
+      "stack": "-JavaScript, html, css, animation",
+      "api": "- open Api: Kakao Map",
+      "tool": "- Tool: Visual Studio Code, GitHub",
+      "publishing": "publishing;",
+      "des1": "header:",
+      "des2": "- 네비게이션바 scroll event 적용",
+      "des3": "main:",
+      "des4": "- animation, setInterval 을 이용해 텍스트, 아이콘 등 동적효과 구현",
+      "des5": "Flex, Grid, Position을 이용한 레이아웃 디자인",
+      "des6": "- 카카오 맵을 이용한 open Api 호출에 따른 지도 확대/축소 등 컨트롤  ",
+      "des7": "- filter 함수를 이용해 review 검색 기능 구현 ",
+      "des8": "- ",
       "category": "웹사이트 유형",
       "category1": "- pc : 1920px",
       "Contribution": "기여도",
-      "Contribution1": "- 100%",
+      "Contribution1": "- 35%",
+      "folder": "디렉토리 구조",
+      "img1": "projectJsFolder1.png",
+      "img2": "projectJsFolder2.png",
+      "img3": "projectJsFolder3.png",
       "ProblemSolution": "Problem&Solution",
-      "pro1": "문제점 1. 상단 메뉴바 scroll event가 생각대로 적용이 되지 않았다. 해당 위치에 스크롤 되면 로고 색과 배경색이 바뀌어야 하는데 :hover 시에 잠깐 적용하는 것 말고 생각나는 효과가 없었다.",
-      "sol1": "해결책 : scroll event 수업을 들은 후 ref함수와 scrollY를 이용해 원하는 효과를 줄 수 있었다.",
-      "pro2": "문제점 2. 이미지를 클릭하면 동영상이 나오는 페이지에서 동영상을 숨기고, 클릭시 동영상이 생기며 올라오는 부분이 쉽게 되지 않았다.",
-      "sol2": "해결책 : useState를 이용해 상태값을 지정해주고 버튼 클릭 시 동영상이 보여지게, 닫기버튼 클릭 시 동영상이 다시 없어지게 스크립트 함수식을 주었다. px을 이용해 고정값을 주어 전체화면이 아닐 시에는 위치값이 맞지 않지만, 스스로 찾아보고 삼항연산자와 onClick 으로 완성하였다.",
-      "pro3": "문제점 3. 컴포넌트명을 작성하는 과정에서 상세 이름을 생각하지 않고 단순 첫 번째 페이지, 두 번쨰 페이지 로 정한 것이 프로답지 못한 판단이었다. ",
-      "sol3": "해결책 : 해당 프로젝트 에서는 해결책을 적용하지 못하였다. 다음 프로젝트 부터는 해당 컴포넌트를 대표하는 단어를 사용해 이름을 지을 것이다.",
+      "pro1": "문제점 1. review 부분 마우스 hover 효과로 배경색을 어둡게 처리해야 하는데 불투명도를 조절하면 글씨까지 흐려지고, z-index를 주면 다른 기능이 적용되지 않는 문제점이 생겼다.",
+      "sol1": "해결책 : :before 기능을 이용해 불투명한 배경색을 엎어 원했던 배경색만 어둡게 처리 / hover시 선명한 배경이미지 보이기 효과를 줄 수 있었다.",
+      "pro2": "문제점 2. .",
+      "sol2": "해결책 : .",
+      "pro3": "문제점 3.  ",
+      "sol3": "해결책 : .",
       "review": "review",
-      "review1": "react를 배우면서 처음 작업한 결과물이다. 모두 배운 뒤 만들었으면 컴포넌트 네이밍이나 scss,css 통일 등 조금 더 완성도 있게 작업할 수 있지 않았을까 하는 아쉬움이 남는다.   html과 css는 미리 만들어 두었기에 react로  작업하는 것이 쉬울 것 같았지만, 의도한 대로 되지 않았다. 곳곳에서 문제사항이 발생했고, 해결하는 과정이 쉽지만은 않았다.  이 경험을 토대로 당장 이 포트폴리오 구성을 더 나은 구조로 작업할 수 있었다."
+      "review1": ""
     }
   ]
 }
