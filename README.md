@@ -23,9 +23,9 @@
 
 components 폴더 하위에 main, project, style 폴더를 만들어 관리함
 
-![pfFold.png](%F0%9F%93%8C%20Overview%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%B5%20f5d7273b6c8e4dd98c199c7285722b73/pfFold.png)
+![pfFold.png](https://github.com/yis-park/portfolio/blob/main/%F0%9F%93%8C%20Overview%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%9E%91%EC%97%85%EC%9D%BC%EC%A7%80%20f5d7273b6c8e4dd98c199c7285722b73/pfFold.png?raw=true)
 
-![pfFold2.png](%F0%9F%93%8C%20Overview%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%B5%20f5d7273b6c8e4dd98c199c7285722b73/pfFold2.png)
+![pfFold2.png](https://github.com/yis-park/portfolio/blob/main/%F0%9F%93%8C%20Overview%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%9E%91%EC%97%85%EC%9D%BC%EC%A7%80%20f5d7273b6c8e4dd98c199c7285722b73/pfFold2.png?raw=true)
 
 ### **페이지 구성:**
 
@@ -43,9 +43,9 @@ components 폴더 하위에 main, project, style 폴더를 만들어 관리함
 
 메인 페이지에서 모든 컨텐츠가 보여지기 때문에 Main.js에 전체적인 레이아웃을 잡고 Main 컴포넌트 안에 들어가는 Project 컴포넌트를 App.js에 구성함
 
-![pflayout.png](%F0%9F%93%8C%20Overview%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%B5%20f5d7273b6c8e4dd98c199c7285722b73/pflayout.png)
+![pflayout.png](https://github.com/yis-park/portfolio/blob/main/%F0%9F%93%8C%20Overview%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%9E%91%EC%97%85%EC%9D%BC%EC%A7%80%20f5d7273b6c8e4dd98c199c7285722b73/pflayout.png?raw=true)
 
-![pflayout2.png](%F0%9F%93%8C%20Overview%20%E1%84%91%E1%85%A9%E1%84%90%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A9%20%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%B5%20f5d7273b6c8e4dd98c199c7285722b73/pflayout2.png)
+![pflayout2.png](https://github.com/yis-park/portfolio/blob/main/%F0%9F%93%8C%20Overview%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%9E%91%EC%97%85%EC%9D%BC%EC%A7%80%20f5d7273b6c8e4dd98c199c7285722b73/pflayout2.png?raw=true)
 
 ## 👏 문제점 및 해결법:
 
