@@ -19,31 +19,79 @@ import ProjectGraphic from "./components/project/ProjectGraphic";
 // json 파일 가져오기
 function App() {
   const [react, setReact] = useState([]);
+  const [team, setTeam] = useState([]);
 
   useEffect(() => {
     const getData = async () => {
       const projectDataList = await axios.get("./DB/projectData.json");
       setReact(projectDataList.data.ReactData);
+      setTeam(projectDataList.data.jsData);
     };
     getData();
   }, []);
 
+  // 마우스 커서
+  const [coods, setCoods] = useState({ x: 0, y: 0 });
+  const handleMouseMove = (e) => {
+    setCoods({ x: e.clientX, y: e.clientY });
+  };
+  const style1 = {
+    left: coods.x,
+    top: coods.y,
+    width: "50px",
+    height: "50px",
+    position: "fixed",
+    borderRadius: "50%",
+    zIndex: -9,
+    backgroundColor: "#85f28530",
+    transform: "translate(-50%, -50%)",
+  };
+  const style2 = {
+    left: coods.x,
+    top: coods.y,
+    width: "80px",
+    height: "80px",
+    border: "1px solid #153",
+    position: "fixed",
+    borderRadius: "50%",
+    zIndex: -9,
+    transform: "translate(-50%, -50%)",
+  };
+
+  const [hover, setHover] = useState(false);
+  const isHovered = (boo) => {
+    setHover(boo);
+  };
+  useEffect(() => {
+    return isHovered();
+  }, []);
+
   return (
-    <>
+    <div onMouseMove={handleMouseMove}>
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/projectContainer" element={<ProjectContainer />} />
-        <Route path="/projectReact" element={<ProjectReact react={react} />} />
-        <Route path="/projectTeam" element={<ProjectTeam />} />
+        <Route
+          path="/projectReact"
+          element={<ProjectReact react={react} isHovered={isHovered} />}
+        />
+        <Route
+          path="/projectTeam"
+          element={<ProjectTeam team={team} isHovered={isHovered} />}
+        />
         <Route path="/projectTeam2" element={<ProjectTeam2 />} />
         <Route path="/projectGraphic" element={<ProjectGraphic />} />
-
-        {/* <Route path="*" element={<NotFoundPage />} /> */}
-        {/* <Route path="/join" element={<Join />} /> */}
       </Routes>
       <Footer />
-    </>
+      <div className="mouse" style={hover ? style1 : style2}></div>
+    </div>
   );
 }
 
 export default App;
+{
+  /* <Route path="*" element={<NotFoundPage />} /> */
+}
+{
+  /* <Route path="/join" element={<Join />} /> */
+}
