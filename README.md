@@ -1,7 +1,7 @@
 # portfolio
 # 📌 Overview : 포트폴리오 작업일지
 
-## **📝 tech stack : React, react-router-dom, JavaScript, HTML5, CSS3**
+## **📝 tech stack : React, React Router, JavaScript, HTML5, CSS3**
 
 ## **🔨 Tool : GitHub, Visual Studio Code, Figma, notion**
 
