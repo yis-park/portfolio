@@ -70,7 +70,7 @@ function App() {
     <div onMouseMove={handleMouseMove}>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/projectContainer" element={<ProjectContainer />} />
+        {/* <Route path="/projectContainer" element={<ProjectContainer />} /> */}
         <Route
           path="/projectReact"
           element={<ProjectReact react={react} isHovered={isHovered} />}

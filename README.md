@@ -1,10 +1,10 @@
 # 📌 Overview : 포트폴리오 작업일지
 
-## **📝 tech stack : React, React Router, JavaScript, HTML5, CSS3**
+📝 tech stack : React, react-router-dom, JavaScript, HTML5, CSS3
 
-## **🔨 Tool : GitHub, Visual Studio Code, Figma, notion**
+**🔨** Tool : GitHub, Visual Studio Code, Figma, notion
 
-### **개인 작업 100%**
+개인 작업 100%
 
 <br />
 
@@ -21,6 +21,8 @@
 
 ## **📃 상세 내용**
 
+---
+
 ### 폴더 구성:
 
 components 폴더 하위에 main, project, style 폴더를 만들어 관리함
@@ -29,7 +31,9 @@ components 폴더 하위에 main, project, style 폴더를 만들어 관리함
 
 ![pfFold2.png](https://github.com/yis-park/portfolio/blob/main/%F0%9F%93%8C%20Overview%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%9E%91%EC%97%85%EC%9D%BC%EC%A7%80%20f5d7273b6c8e4dd98c199c7285722b73/pfFold2.png?raw=true)
 
-### **페이지 구성:**
+### point**:**
+
+**라우터 돔을 이용해 전체적인 레이아웃을 만듦**
 
 - aos 라이브러리를 통한 fade-in 효과 구현
 - 마우스 커서 따라다니는 효과 구현 & 클릭해야 할 부분에서 포인터 바꿔주기
@@ -39,11 +43,7 @@ components 폴더 하위에 main, project, style 폴더를 만들어 관리함
 - map 함수로 Skill 부분 간단히 표현하기
 - 해당 프로젝트 클릭 시 관련 깃허브로 바로 이동 →마크다운 문서로 상세페이지 제작하기
 
-### **layout:**
-
-**라우터 돔을 이용해 전체적인 레이아웃을 만듦**
-
-메인 페이지에서 모든 컨텐츠가 보여지기 때문에 Main.js에 전체적인 레이아웃을 잡고 Main 컴포넌트 안에 들어가는 Project 컴포넌트를 App.js에 구성함
+Main.js에 전체적인 레이아웃을 잡고 Main 컴포넌트 안에 들어가는 Project 컴포넌트를 App.js에 구성함
 
 ![pflayout.png](https://github.com/yis-park/portfolio/blob/main/%F0%9F%93%8C%20Overview%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%9E%91%EC%97%85%EC%9D%BC%EC%A7%80%20f5d7273b6c8e4dd98c199c7285722b73/pflayout.png?raw=true)
 
