@@ -23,7 +23,7 @@ function MainProject({ isHovered }) {
         data-aos-anchor-placement="top-bottom"
       >
         <a
-          href="https://github.com/yis-park/portfolio"
+          href="https://www.notion.so/Overview-f5d7273b6c8e4dd98c199c7285722b73"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >

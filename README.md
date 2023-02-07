@@ -2,13 +2,13 @@
 
 📝 tech stack : React, react-router-dom, JavaScript, HTML5, CSS3
 
-**🔨** Tool : GitHub, Visual Studio Code, Figma, notion
+🔨 Tool : GitHub, Visual Studio Code, Figma, notion
 
 개인 작업 100%
 
 <br />
 
-## **🔔 목표:**
+## **🔔 목표**
 
 <br />
 
@@ -17,13 +17,11 @@
 - [ ] 가독성 있는 페이지 구성으로 제작하기
 
 - [ ] 배운 기능들을 과하지 않게 활용하기  
-      <br />
+       <br />
 
 ## **📃 상세 내용**
 
----
-
-### 폴더 구성:
+### 폴더 구성
 
 components 폴더 하위에 main, project, style 폴더를 만들어 관리함
 
@@ -31,7 +29,7 @@ components 폴더 하위에 main, project, style 폴더를 만들어 관리함
 
 ![pfFold2.png](https://github.com/yis-park/portfolio/blob/main/%F0%9F%93%8C%20Overview%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EC%9E%91%EC%97%85%EC%9D%BC%EC%A7%80%20f5d7273b6c8e4dd98c199c7285722b73/pfFold2.png?raw=true)
 
-### point**:**
+### point
 
 **라우터 돔을 이용해 전체적인 레이아웃을 만듦**
 
