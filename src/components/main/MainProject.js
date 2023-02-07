@@ -22,14 +22,14 @@ function MainProject({ isHovered }) {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link
-          to="/projectContainer"
+        <a
+          href="https://github.com/yis-park/portfolio"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
           <h3>+ PORTFOLIO 제작일지 </h3>
           <h4> # figma</h4>
-        </Link>
+        </a>
       </div>
       <div
         className="project-react border"
