@@ -23,7 +23,7 @@ function MainProject({ isHovered }) {
         data-aos-anchor-placement="top-bottom"
       >
         <a
-          href="https://www.notion.so/Overview-f5d7273b6c8e4dd98c199c7285722b73"
+          href="https://www.notion.so/e725012b957f49aab5086541baec98a0"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >

@@ -17,18 +17,18 @@ import ProjectTeam2 from "./components/project/ProjectTeam2";
 import ProjectGraphic from "./components/project/ProjectGraphic";
 
 // json 파일 가져오기
-function App() {
-  const [react, setReact] = useState([]);
-  const [team, setTeam] = useState([]);
+// function App() {
+//   const [react, setReact] = useState([]);
+//   const [team, setTeam] = useState([]);
 
-  useEffect(() => {
-    const getData = async () => {
-      const projectDataList = await axios.get("./DB/projectData.json");
-      setReact(projectDataList.data.ReactData);
-      setTeam(projectDataList.data.jsData);
-    };
-    getData();
-  }, []);
+//   useEffect(() => {
+//     const getData = async () => {
+//       const projectDataList = await axios.get("./DB/projectData.json");
+//       setReact(projectDataList.data.ReactData);
+//       setTeam(projectDataList.data.jsData);
+//     };
+//     getData();
+//   }, []);
 
   // 마우스 커서
   const [coods, setCoods] = useState({ x: 0, y: 0 });
@@ -71,7 +71,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         {/* <Route path="/projectContainer" element={<ProjectContainer />} /> */}
-        <Route
+        {/* <Route
           path="/projectReact"
           element={<ProjectReact react={react} isHovered={isHovered} />}
         />
@@ -80,7 +80,7 @@ function App() {
           element={<ProjectTeam team={team} isHovered={isHovered} />}
         />
         <Route path="/projectTeam2" element={<ProjectTeam2 />} />
-        <Route path="/projectGraphic" element={<ProjectGraphic />} />
+        <Route path="/projectGraphic" element={<ProjectGraphic />} /> */}
       </Routes>
       <Footer />
       <div className="mouse" style={hover ? style1 : style2}></div>
