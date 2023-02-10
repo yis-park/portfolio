@@ -28,7 +28,7 @@ function MainProject({ isHovered }) {
           onMouseLeave={() => isHovered(false)}
         >
           <h3>+ PORTFOLIO 제작일지 </h3>
-          <h4> # figma</h4>
+          <h4> # Notion</h4>
         </a>
       </div>
       <div
@@ -37,14 +37,14 @@ function MainProject({ isHovered }) {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link
-          to="/projectReact"
+        <a
+          href="https://yis-park.github.io/noonnu/"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
           <h3>+ React를 이용한 웹사이트 만들기 </h3>
           <h4> # Web # React #Swiper #JavaScript # HTML5 # CSS3 </h4>
-        </Link>
+        </a>
       </div>
       <div
         className="project-team  border"
