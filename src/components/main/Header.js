@@ -90,14 +90,6 @@ function Header({ setIdx, isHovered }) {
             contact
           </li>
         </ul>
-        {/* <ul className="registry">
-          <li>
-            <Link to="/notFoundPage">login</Link>
-          </li>
-          <li>
-            <Link to="/join">join</Link>
-          </li>
-        </ul> */}
       </nav>
     </header>
   );

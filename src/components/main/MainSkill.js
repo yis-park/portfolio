@@ -5,7 +5,6 @@ function MainSkill() {
   return (
     <article className="skill main">
       <h2>Skill</h2>
-      {/* <h3>WEB;</h3> */}
 
       {data.map((item) => (
         <div key={item.id} className="explanation">

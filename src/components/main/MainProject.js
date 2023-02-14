@@ -53,7 +53,7 @@ function MainProject({ isHovered }) {
         data-aos-anchor-placement="top-bottom"
       >
         <Link
-          to="/projectTeam"
+          to=""
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
@@ -68,7 +68,7 @@ function MainProject({ isHovered }) {
         data-aos-anchor-placement="top-bottom"
       >
         <Link
-          to="/projectTeam2"
+          to=""
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
@@ -83,7 +83,7 @@ function MainProject({ isHovered }) {
         data-aos-anchor-placement="top-bottom"
       >
         <Link
-          to="/projectGraphic"
+          to=""
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
