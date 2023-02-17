@@ -41,7 +41,7 @@ function MainContact({ isHovered }) {
             </Flip>
           </p>
         </div>
-        <span>yis.park@gmail.com</span>
+        <span>yiis.park@gmail.com</span>
         <span>2022~2023 프론트엔드 개발 및 실무프로젝트 구현과정 수료 </span>
       </div>
     </article>
