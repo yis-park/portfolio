@@ -38,12 +38,12 @@ function MainProject({ isHovered }) {
         data-aos-anchor-placement="top-bottom"
       >
         <a
-          href="https://yis-park.github.io/noonnu/"
+          href="https://www.notion.so/01cd1328954e42cfbb25ff4891261f10?pvs=4"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
           <h3>+ React를 이용한 웹사이트 만들기 </h3>
-          <h4> # Web # React #Swiper #JavaScript # HTML5 # CSS3 </h4>
+          <h4> # Web # React #JavaScript # HTML5 # CSS3 </h4>
         </a>
       </div>
       <div
