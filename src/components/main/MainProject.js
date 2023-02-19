@@ -38,7 +38,7 @@ function MainProject({ isHovered }) {
         data-aos-anchor-placement="top-bottom"
       >
         <a
-          href="https://www.notion.so/01cd1328954e42cfbb25ff4891261f10?pvs=4"
+          href="https://leaf-makeup-5e2.notion.site/01cd1328954e42cfbb25ff4891261f10"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
