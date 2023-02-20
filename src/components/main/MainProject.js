@@ -43,7 +43,10 @@ function MainProject({ isHovered }) {
           onMouseLeave={() => isHovered(false)}
         >
           <h3>+ React를 이용한 웹사이트 만들기 </h3>
-          <h4> # Web # React # react-router-dom #JavaScript # HTML5 # CSS3 </h4>
+          <h4>
+            # Web # React # react-router-dom # axios # gh-pages # JavaScript #
+            HTML5 # CSS3
+          </h4>
         </a>
       </div>
       <div
