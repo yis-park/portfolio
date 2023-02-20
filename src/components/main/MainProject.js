@@ -43,7 +43,7 @@ function MainProject({ isHovered }) {
           onMouseLeave={() => isHovered(false)}
         >
           <h3>+ React를 이용한 웹사이트 만들기 </h3>
-          <h4> # Web # React #JavaScript # HTML5 # CSS3 </h4>
+          <h4> # Web # React # react-router-dom #JavaScript # HTML5 # CSS3 </h4>
         </a>
       </div>
       <div
@@ -52,14 +52,14 @@ function MainProject({ isHovered }) {
         data-aos-easing="ease-in-out"
         data-aos-anchor-placement="top-bottom"
       >
-        <Link
-          to=""
+        <a
+          href="https://leaf-makeup-5e2.notion.site/Dr-MODOO-a9814a1b9cad4755816311fb8eb1b665"
           onMouseEnter={() => isHovered(true)}
           onMouseLeave={() => isHovered(false)}
         >
-          <h3>+ JAVASCRIPT를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
-          <h4># Dr.MODOO # Web #JavaScript #Selection # HTML5 # CSS3</h4>
-        </Link>
+          <h3> + JavaScript를 이용한 웹사이트 만들기 (팀프로젝트)</h3>
+          <h4> # Web # JavaScript #Filter # HTML5 # CSS3 # Dr.MODOO </h4>
+        </a>
       </div>
       <div
         className="project-team2  border"
