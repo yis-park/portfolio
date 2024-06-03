@@ -18,7 +18,7 @@ function MainIntro() {
 
       <div className="scrolldown">
         <img src={imglogo} alt="scrolldown" />
-        <h4>Folio-23</h4>
+        <h4>Folio-24</h4>
       </div>
     </article>
   );
