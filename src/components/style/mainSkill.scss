@@ -1,41 +1,69 @@
 @import "../../assets/style/valuable";
+@media screen and (min-width: 830px) {
+  .skill {
+    padding-left: $paddingLeft;
+    padding-bottom: 150px;
+    font-family: $IVY;
+    // overflow: hidden;
+    h2 {
+      padding-top: 50px;
+      padding-bottom: 90px;
+      font-size: $fontSize;
+    }
+    h4 {
+      width: 200px;
+      text-align: right;
+      font-size: 30px;
+      font-weight: 600;
+    }
 
-.skill {
-  padding-left: $paddingLeft;
-  padding-bottom: 150px;
-  font-family: $IVY;
-  // overflow: hidden;
-  h2 {
-    padding-top: 50px;
-    padding-bottom: 90px;
-    font-size: $fontSize;
+    h3 {
+      width: 255px;
+      text-align: right;
+      font-size: 60px;
+      color: $color;
+      font-weight: 600;
+      position: sticky;
+      top: 0;
+    }
+    .explanation .flex {
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+    }
+    .explanation ul {
+      width: 530px;
+      font-size: 18px;
+      font-family: $pretendard;
+      padding: 30px 30px 70px 70px;
+      list-style: none;
+    }
   }
-  h4 {
-    width: 200px;
-    text-align: right;
-    font-size: 30px;
-    font-weight: 600;
-  }
-
-  h3 {
-    width: 255px;
-    text-align: right;
-    font-size: 60px;
-    color: $color;
-    font-weight: 600;
-    position: sticky;
-    top: 0;
-  }
-  .explanation .flex {
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-  }
-  .explanation ul {
-    width: 530px;
-    font-size: 18px;
-    font-family: $pretendard;
-    padding: 30px 30px 70px 70px;
-    list-style: none;
+}
+@media screen and (max-width: 829px) {
+  .skill {
+    padding: 0 10px;
+    h2 {
+      padding: 50px 0 10px 0;
+      font-size: 3rem;
+      font-family: $IVY;
+    }
+    h3 {
+      font-size: 2rem;
+      color: $color;
+      position: sticky;
+      top: 0;
+      padding: 20px 0;
+    }
+    .explanation .flex {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+    }
+    .explanation ul {
+      font-family: $pretendard;
+      padding: 10px;
+      list-style: none;
+    }
   }
 }

@@ -1,0 +1,66 @@
+@media screen and (min-width: 830px) {
+  .skill {
+    padding-left: 30%;
+    padding-bottom: 150px;
+    font-family: "Ivy Mode", Georgia, "Times New Roman", Times, serif;
+  }
+  .skill h2 {
+    padding-top: 50px;
+    padding-bottom: 90px;
+    font-size: 150px;
+  }
+  .skill h4 {
+    width: 200px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .skill h3 {
+    width: 255px;
+    text-align: right;
+    font-size: 60px;
+    color: #153;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+  }
+  .skill .explanation .flex {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .skill .explanation ul {
+    width: 530px;
+    font-size: 18px;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    padding: 30px 30px 70px 70px;
+    list-style: none;
+  }
+}
+@media screen and (max-width: 829px) {
+  .skill {
+    padding: 0 10px;
+  }
+  .skill h2 {
+    padding: 50px 0 10px 0;
+    font-size: 3rem;
+    font-family: "Ivy Mode", Georgia, "Times New Roman", Times, serif;
+  }
+  .skill h3 {
+    font-size: 2rem;
+    color: #153;
+    position: sticky;
+    top: 0;
+    padding: 20px 0;
+  }
+  .skill .explanation .flex {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .skill .explanation ul {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    padding: 10px;
+    list-style: none;
+  }
+}

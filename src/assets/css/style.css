@@ -1,0 +1,38 @@
+@import "./reset.css";
+@import "../fonts/fonts.css";
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eeece5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #153;
+  border-radius: 10px;
+}
+
+::-moz-selection {
+  background-color: #153;
+  color: #eeece5;
+}
+
+::selection {
+  background-color: #153;
+  color: #eeece5;
+}
+
+html {
+  background-color: #eeece5;
+}
+
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

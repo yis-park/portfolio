@@ -1,0 +1,19 @@
+.notFound {
+  padding-top: 100px;
+  height: 100vh;
+  text-align: center;
+  font-size: 150px;
+}
+.notFound .app {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+  perspective: 1000px;
+  overflow: hidden;
+}

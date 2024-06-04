@@ -1,16 +1,31 @@
 @import "../../assets/style/valuable";
+@media screen and (min-width: 830px) {
+  .aspiration {
+    padding-left: $paddingLeft;
+    h2 {
+      padding-top: 50px;
+      padding-bottom: 110px;
+      font-size: $fontSize;
+      font-family: $IVY;
+    }
+    p {
+      width: 80%;
+      font-size: 25px;
+    }
+    padding-bottom: 150px;
+  }
+}
+@media screen and (max-width: 829px) {
+  .aspiration {
+    padding: 0 10px;
 
-.aspiration {
-  padding-left: $paddingLeft;
-  h2 {
-    padding-top: 50px;
-    padding-bottom: 110px;
-    font-size: $fontSize;
-    font-family: $IVY;
+    h2 {
+      padding: 50px 0 10px 0;
+      font-size: 3rem;
+      font-family: $IVY;
+    }
+    p {
+      font-size: 1.2rem;
+    }
   }
-  p {
-    width: 80%;
-    font-size: 25px;
-  }
-  padding-bottom: 150px;
 }

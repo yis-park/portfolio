@@ -1,0 +1,79 @@
+@media screen and (min-width: 830px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    height: 60px;
+    transition: 0.4s;
+  }
+  header h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 30px;
+    font-family: "Ivy Mode", Georgia, "Times New Roman", Times, serif;
+  }
+  header .navigation {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+  }
+  header .navigation .global-nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    right: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
+  header .navigation .global-nav li {
+    width: 90px;
+    margin: 16px 0;
+    padding: 5px;
+    transition: 0.3s;
+  }
+  header .navigation .global-nav li.on {
+    background-color: #153;
+    border-radius: 30px;
+    color: #fff;
+  }
+  header .navigation .global-nav li:hover {
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 829px) {
+  header {
+    position: fixed;
+    background-color: #eeece5;
+    top: 0;
+    width: 100%;
+    padding: 5px 0;
+  }
+  header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family: "Ivy Mode", Georgia, "Times New Roman", Times, serif;
+    top: 5px;
+  }
+  header .navigation .global-nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding: 3px 0;
+    cursor: pointer;
+  }
+  header .navigation .global-nav li {
+    padding: 5px;
+  }
+  header .navigation .global-nav li.on {
+    background-color: #153;
+    border-radius: 30px;
+    color: #fff;
+  }
+}

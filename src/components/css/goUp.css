@@ -1,7 +1,6 @@
-@import "../../assets/style/valuable";
 @media screen and (min-width: 830px) {
   .goUpBtn {
-    color: $color;
+    color: #153;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     cursor: pointer;
@@ -10,28 +9,28 @@
     left: 100px;
     bottom: 40px;
     transition: 0.4s;
-    &:hover {
-      bottom: 43px;
-    }
-    &.on {
-      display: block;
-    }
+  }
+  .goUpBtn:hover {
+    bottom: 43px;
+  }
+  .goUpBtn.on {
+    display: block;
   }
 }
 @media screen and (max-width: 829px) {
   .goUpBtn {
-    color: $color;
+    color: #153;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     display: none;
     position: fixed;
     left: 20px;
     bottom: 35px;
-    &:hover {
-      bottom: 43px;
-    }
-    &.on {
-      display: block;
-    }
+  }
+  .goUpBtn:hover {
+    bottom: 43px;
+  }
+  .goUpBtn.on {
+    display: block;
   }
 }

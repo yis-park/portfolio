@@ -1,0 +1,29 @@
+@media screen and (min-width: 830px) {
+  .aspiration {
+    padding-left: 30%;
+    padding-bottom: 150px;
+  }
+  .aspiration h2 {
+    padding-top: 50px;
+    padding-bottom: 110px;
+    font-size: 150px;
+    font-family: "Ivy Mode", Georgia, "Times New Roman", Times, serif;
+  }
+  .aspiration p {
+    width: 80%;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 829px) {
+  .aspiration {
+    padding: 0 10px;
+  }
+  .aspiration h2 {
+    padding: 50px 0 10px 0;
+    font-size: 3rem;
+    font-family: "Ivy Mode", Georgia, "Times New Roman", Times, serif;
+  }
+  .aspiration p {
+    font-size: 1.2rem;
+  }
+}
