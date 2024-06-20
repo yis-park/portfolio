@@ -10,7 +10,7 @@ function MainProject({ isHovered }) {
       data-aos-anchor-placement="top-center"
     >
       <h2>
-        <span>2022~2023</span>
+        <span>2022~2024</span>
         <br />
         Selected
         <br /> works
@@ -29,6 +29,24 @@ function MainProject({ isHovered }) {
         >
           <h3>+ PORTFOLIO 제작일지 </h3>
           <h4> # Notion</h4>
+        </a>
+      </div>
+      <div
+        className="projectReact  border"
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-anchor-placement="top-bottom"
+      >
+        <a
+          href="https://leaf-makeup-5e2.notion.site/76093cbfc3b1436ba5286486496f0d1a?pvs=4"
+          onMouseEnter={() => isHovered(true)}
+          onMouseLeave={() => isHovered(false)}
+        >
+          <h3>+ React로 만든 플래시게임 (feat.Typescript) </h3>
+          <h4>
+            #Typescript # React # Vite # 벽돌깨기 # 숫자기억하기 #똥피하기
+            #darkmode적용
+          </h4>
         </a>
       </div>
       <div

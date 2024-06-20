@@ -2,4 +2,7 @@
 
 https://yis-park.github.io/portfolio/
 
-2024~ 업데이트중입니다.
+2024~ 업데이트중입니다.   
+
+타입스크립트 플래시게임   
+https://yis-park.github.io/--template-react/
