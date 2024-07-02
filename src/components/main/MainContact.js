@@ -43,7 +43,7 @@ function MainContact({ isHovered }) {
         </div>
         <span>yiis.park@gmail.com</span>
         <div className="address">
-          <span> 2024~ 현재 방송통신대학교 컴퓨터과학과 재학 </span> <br />
+          <span> 2024~ 현재 방송통신대학교 컴퓨터과학과 재학중 </span> <br />
           <span> 2023~ 현재 수원 솔루션 기업 재직중 </span> <br />
           <span> 2022~2023 프론트엔드 개발 및 실무프로젝트 구현과정 수료</span>
         </div>

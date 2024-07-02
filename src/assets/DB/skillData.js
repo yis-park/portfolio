@@ -1,3 +1,5 @@
+import { FaCss3Alt } from "react-icons/fa";
+
 const skillDataContex = [
   {
     id: 1,
@@ -46,6 +48,12 @@ const skillDataContex = [
       "빌드도구 : Vite",
       "React 추가 공부중",
     ],
+  },
+  {
+    id: 4,
+    title: "Deployment",
+    name1: "docker & amazon web service",
+    descriptions: ["docker & amazon web service를 이용한 배포"],
   },
   {
     id: 4,
