@@ -41,15 +41,18 @@
     .skillFlex {
       display: flex;
       gap: 10px;
+      width: 90%;
       .skillFlexDiv {
         display: flex;
         // flex-direction: column;
-        gap: 10px;
+        gap: 20px;
+        width: 100%;
         .skillBox {
           border: 1px solid #000;
-          padding: 50px 30px;
+          padding: 100px 30px;
 
-          min-width: 450px;
+          // min-width: 450px;
+          width: 100%;
           display: flex;
           flex-direction: column;
           align-items: center;

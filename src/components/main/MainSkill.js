@@ -52,7 +52,7 @@ function MainSkill() {
             data-aos-anchor-placement="top-bottom"
           >
             <h3>F/E</h3> <br />
-            <div style={{ display: "flex", gap: 20, marginBottom: 50 }}>
+            <div style={{ display: "flex", gap: 30, marginBottom: 80 }}>
               <div
                 style={{
                   display: "flex",
@@ -102,7 +102,7 @@ function MainSkill() {
                 css3
               </div>
             </div>
-            <div style={{ display: "flex", gap: 20, marginBottom: 50 }}>
+            <div style={{ display: "flex", gap: 30, marginBottom: 80 }}>
               <div
                 style={{
                   display: "flex",
@@ -153,7 +153,7 @@ function MainSkill() {
                 <p style={{ marginLeft: 3 }}>MUI</p>
               </div>
             </div>
-            <div style={{ display: "flex", gap: 20, marginBottom: 50 }}>
+            <div style={{ display: "flex", gap: 30, marginBottom: 80 }}>
               <div
                 style={{
                   display: "flex",
@@ -199,7 +199,7 @@ function MainSkill() {
             // data-aos-anchor-placement="top-bottom"
           >
             <h3>Deployment</h3> <br />
-            <div style={{ display: "flex", gap: 20, marginBottom: 50 }}>
+            <div style={{ display: "flex", gap: 30, marginBottom: 80 }}>
               <div
                 style={{
                   display: "flex",
@@ -228,7 +228,7 @@ function MainSkill() {
             <br />
             <br />
             <h3>OTHER</h3> <br />
-            <div style={{ display: "flex", gap: 20, marginBottom: 50 }}>
+            <div style={{ display: "flex", gap: 30, marginBottom: 80 }}>
               <div
                 style={{
                   display: "flex",
